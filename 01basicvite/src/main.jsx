@@ -2,23 +2,24 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 
-const reactElement = {
-  //custom declaration so react dont under this
-  type: "a",
-  props: {
-    target: "_blank",
-    href: "https://react.dev/",
-  },
+// const reactElement = {
+//   //custom declaration so react dont under this
+//   type: "a",
+//   props: {
+//     target: "_blank",
+//     href: "https://react.dev/",
+//   },
 
-  children: "click me to visit react",
-};
+//   children: "click me to visit react",
+// };
 
 function MyApp() {
+  const username = "suraj";
   return (
     <>
       //jsx
-      <h1>Vite react app</h1>
-      <h2>example</h2>
+      <h1>Vite react app{2 + 2}</h1>
+      <h2>example{username}</h2>
     </>
   );
 }
