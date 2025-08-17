@@ -12,7 +12,7 @@ import App from "./App.jsx";
 
 //   children: "click me to visit react",
 // };
-
+//React functional component that uses JSX to define the UI.
 function MyApp() {
   const username = "suraj";
   return (
@@ -23,13 +23,15 @@ function MyApp() {
     </>
   );
 }
-
+//JSX is a syntax that looks like HTML but is actually JavaScript under the hood. It allows you to write UI structures in a declarative way, which React transpiles into JavaScript using tools like Babel.
+//This JSX creates a React element representing an <a> tag with attributes (href, target) and the text content "Visit Google".
+//Under the hood, JSX is transpiled into a React.createElement call, which creates a JavaScript object (a React element) that React uses to build the DOM.
 const AnotherElement = (
   <a href="https://google.com" target="_blank">
     Visit Google
   </a>
 );
-
+//This is the raw JavaScript equivalent of the JSX in AnotherElement.
 const areactElement = React.createElement(
   //parameter order: element , attributes, children
   "a",
