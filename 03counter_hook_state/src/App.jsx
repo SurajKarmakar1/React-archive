@@ -7,16 +7,16 @@ function App() {
 
   const addValue = () => {
     setCounter((prevCounter) => {
-      prevCounter + 1;
+      return prevCounter + 1;
     });
     setCounter((prevCounter) => {
-      prevCounter + 1;
+      return prevCounter + 1;
     });
     setCounter((prevCounter) => {
-      prevCounter + 1;
+      return prevCounter + 1;
     });
     setCounter((prevCounter) => {
-      prevCounter + 1;
+      return prevCounter + 1;
     });
   };
 
