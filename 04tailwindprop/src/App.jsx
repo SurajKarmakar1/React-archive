@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./components/Card";
-import "./App.css";
 import Card from "./components/Card";
 // props are way to pass data from one comp to another component.
 function App() {

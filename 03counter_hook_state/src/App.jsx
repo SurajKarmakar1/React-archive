@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-//any change in the state wil re render the web page.(why state was designed for in react.)
+//any change in the state will re render the web page.(why state was designed for in react.)
 function App() {
   // let counter = 0;
   let [counter, setCounter] = useState(0); // hooks
