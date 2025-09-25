@@ -1,1 +1,7 @@
+@import '@fontsource/geist-sans';
+
 @import "tailwindcss";
+
+html {
+  font-family: 'Geist Sans', system-ui, -apple-system, sans-serif;
+}
